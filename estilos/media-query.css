@@ -24,19 +24,26 @@
 }
 
 @media screen and (min-width:992px){
+
+    
     section#login{
         width:950px ;
     }
 
     section#login > div#imagem{
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#login > div#formulario{
-        float:right;
+        float:left;
         width: 50%;
+        font-size: 1.2em;
+    }
+
+    section#login > h1{
+        font-size: 2em;
     }
 
     body{
